@@ -1,0 +1,19 @@
+$color-black: #000;
+$color-white: #fff;
+
+.btn {
+  margin-top: 0.7rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #000;
+  cursor: pointer;
+  background-color: lightseagreen;
+  border: none;
+
+  &:hover {
+    color: $color-white;
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  }
+}
