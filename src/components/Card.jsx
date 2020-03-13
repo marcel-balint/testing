@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import PropTypes from "prop-types";
 
 const Card = props => {
   return (
@@ -13,6 +14,11 @@ const Card = props => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  add: PropTypes.func,
+  text: PropTypes.string
 };
 
 export default Card;
